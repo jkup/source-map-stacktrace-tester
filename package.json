@@ -2,7 +2,8 @@
   "name": "source-map-stacktrace-tester",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
   "author": "Jon Kuperman",
   "license": "MIT",
   "dependencies": {
-    "stacktrace-js": "^2.0.2"
+    "stacktrace-js": "^2.0.2",
+    "yargs": "^17.7.2"
   }
 }

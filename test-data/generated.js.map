@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "sources": [
+    "original.js"
+  ],
+  "names": [
+    "throwError",
+    "Error",
+    "new"
+  ],
+  "mappings": "AAAA,SAASA,IAAIC,GACV,QAASC,OAAOC,GAAiB",
+  "file": "generated.js",
+  "sourcesContent": [
+    "function throwError() {\n    throw new Error('This is a test error');\n}\n\nthrowError();\n"
+  ]
+}
