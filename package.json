@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Jon Kuperman",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "stacktrace-js": "^2.0.2"
+  }
 }
